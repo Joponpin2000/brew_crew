@@ -46,7 +46,7 @@ class _RegisterState extends State<Register> {
               padding: EdgeInsets.symmetric(vertical: 20, horizontal: 50),
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/coffe_bg.png'),
+                  image: AssetImage('assets/coffee_bg.png'),
                   fit: BoxFit.cover,
                 ),
               ),
