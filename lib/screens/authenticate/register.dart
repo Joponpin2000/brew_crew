@@ -12,17 +12,17 @@ class Register extends StatefulWidget {
 }
 
 class _RegisterState extends State<Register> {
+  final AuthService _auth = AuthService();
+  final _formKey = GlobalKey<FormState>();
+  bool loader = false;
+
+  // String field state
+  String email = '';
+  String password = '';
+  String error = '';
+
   @override
   Widget build(BuildContext context) {
-    final AuthService _auth = AuthService();
-    final _formKey = GlobalKey<FormState>();
-    bool loader = false;
-
-    // String field state
-    String email = '';
-    String password = '';
-    String error = '';
-
     return loader
         ? Loader()
         : Scaffold(
