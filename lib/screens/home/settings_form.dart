@@ -1,7 +1,6 @@
 import 'package:brew_crew/models/user.dart';
 import 'package:brew_crew/services/database.dart';
 import 'package:brew_crew/shared/loader.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:brew_crew/shared/constants.dart';
 import 'package:provider/provider.dart';
